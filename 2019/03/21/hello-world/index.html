@@ -363,19 +363,6 @@
           
             
             
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/2019/03/21/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/03/21/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -454,10 +441,7 @@
           
 
   
-    <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
-      </div>
+    <div class="comments" id="gitalk-container">
     </div>
 
   
@@ -704,30 +688,36 @@
   
 
   
-  
-  <script id="dsq-count-scr" src="https://feyoung.disqus.com/count.js" async></script>
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
 
 <script>
-  var disqus_config = function() {
-    this.page.url = "http://yoursite.com/2019/03/21/hello-world/";
-    this.page.identifier = "2019/03/21/hello-world/";
-    this.page.title = 'Hello World';
-    };
-  function loadComments() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://feyoung.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', '' + +new Date());
-    (d.head || d.body).appendChild(s);
-  }
-  
-    loadComments();
-  
+  var gitalk = new Gitalk({
+    clientID: 'dfc9bc6016fce8b889a2',
+    clientSecret: 'adc54ff6830055dc2296b7e27b6be4883f5f5cdf',
+    repo: 'https://feyond.github.io/',
+    owner: 'feyond',
+    admin: ['feyond'],
+    id: md5(location.pathname),
+    
+      language: window.navigator.language || window.navigator.userLanguage,
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
 </script>
-
-
-
-
 
   
 
