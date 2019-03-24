@@ -81,3 +81,5 @@ deploy:
   type: git
   repository: https://github.com/feyond/feyond.github.io.git
   branch: master
+
+github: https://github.com/feyond
