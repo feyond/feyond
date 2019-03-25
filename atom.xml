@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>油炸青春</title>
+  
+  <subtitle>一事是真~其余皆慌！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://feyond.github.io/"/>
+  <updated>2019-03-24T08:43:47.667Z</updated>
+  <id>https://feyond.github.io/</id>
+  
+  <author>
+    <name>Feyoung</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>构建笔记系统</title>
+    <link href="https://feyond.github.io/2019/03/24/build-note-system/"/>
+    <id>https://feyond.github.io/2019/03/24/build-note-system/</id>
+    <published>2019-03-24T08:39:58.000Z</published>
+    <updated>2019-03-24T08:43:47.667Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Mon Mar 25 2019 19:20:57 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;笔记原则&quot;&gt;&lt;a href=&quot;#笔记原则&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo流程图</title>
+    <link href="https://feyond.github.io/2019/03/24/hexo-filter-flowchart/"/>
+    <id>https://feyond.github.io/2019/03/24/hexo-filter-flowchart/</id>
+    <published>2019-03-24T06:43:25.000Z</published>
+    <updated>2019-03-24T08:22:07.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Mon Mar 25 2019 19:20:57 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://feyond.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
