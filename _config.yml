@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://feyond.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,4 +82,27 @@ deploy:
   repository: https://github.com/feyond/feyond.github.io.git
   branch: master
 
-github: https://github.com/feyond
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content: false
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
